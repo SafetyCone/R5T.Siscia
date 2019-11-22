@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Siscia.Construction", "R5T.Siscia.Construction\R5T.Siscia.Construction.csproj", "{953C1921-F681-4129-A2C7-3A8BE4D1BB43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Siscia.Construction", "R5T.Siscia.Construction\R5T.Siscia.Construction.csproj", "{953C1921-F681-4129-A2C7-3A8BE4D1BB43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Siscia", "R5T.Siscia\R5T.Siscia.csproj", "{3084BD95-FD7A-47BD-948E-47484FEEEAE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Siscia", "R5T.Siscia\R5T.Siscia.csproj", "{3084BD95-FD7A-47BD-948E-47484FEEEAE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Siscia.Testing", "R5T.Siscia.Testing\R5T.Siscia.Testing.csproj", "{881B0EC0-E64A-487C-B7B9-5CCA13C1B7CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Siscia.Testing", "R5T.Siscia.Testing\R5T.Siscia.Testing.csproj", "{881B0EC0-E64A-487C-B7B9-5CCA13C1B7CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{85CF7CC1-9A2F-4EBF-8BC4-E70F934DE31C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Guide", "..\..\R5T.Guide\source\R5T.Guide\R5T.Guide.csproj", "{91A8785B-3892-476B-824F-2DDBED2CC6D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{953C1921-F681-4129-A2C7-3A8BE4D1BB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{881B0EC0-E64A-487C-B7B9-5CCA13C1B7CA}.Release|x64.Build.0 = Release|Any CPU
 		{881B0EC0-E64A-487C-B7B9-5CCA13C1B7CA}.Release|x86.ActiveCfg = Release|Any CPU
 		{881B0EC0-E64A-487C-B7B9-5CCA13C1B7CA}.Release|x86.Build.0 = Release|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Debug|x64.Build.0 = Debug|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Debug|x86.Build.0 = Debug|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Release|x64.ActiveCfg = Release|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Release|x64.Build.0 = Release|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Release|x86.ActiveCfg = Release|Any CPU
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91A8785B-3892-476B-824F-2DDBED2CC6D2} = {85CF7CC1-9A2F-4EBF-8BC4-E70F934DE31C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18EA5701-2DA3-4B9A-8786-7C9F5000BFA1}
 	EndGlobalSection
 EndGlobal
